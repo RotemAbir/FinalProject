@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="StyleSheet1.css" />
+</head>
+<body id="body">
+
+        <img class="secondary-logo" src="logo.jpg" />
+
+    <div align="right">
+        <table class="tool-bar">
+            <tr>
+                <th> <a href="HTMLPage2.html"> איזור אישי </a>  </th>
+                <th> <a href="HTMLPage7.html"> בעלי מקצוע ואנשי שירות </a>  </th>
+                <th> <a href="HTMLPage6.html"> תקנון ונהלים </a>  </th>
+                <th> <a href="HTMLPage5.html"> הודעות </a>  </th>
+                <th> <a href="HTMLPage3.html"> דף בית</a> </th>
+            </tr>
+        </table>
+    </div>
+
+<h1 align="center">דיווח על תקלות</h1>
+
+    <p >על מנת לדווח על תקלה מלאו את כל הפרטים בטופס הבא</p>
+
+<div class="problem" align="center">
+    <form action="/action_page.php">
+        <p >מספר ת.ז של הדייר</p>
+        <input type="text" class="input"  required="required">
+        <p>תאריך התקלה</p>
+        <input type="text" class="input" required="required">
+  
+        <p >נושא הפניה</p>
+        <select name="problem" id="drop-down">
+            <option value="choose">בחר</option>
+            <option value="clean">בעיית ניקיון</option>
+            <option value="security">בעיית אבטחה</option>
+            <option value="technical">בעיית תחזוקה</option>
+            <option value="services">בעיית שירותים</option>
+            <option value="other">אחר</option>
+        </select>
+        <p >פירוט התקלה</p>
+        <input type="text" id="problem-summary" required="required" style="word-wrap: break-word">
+    </form>
+    </br>
+    <input type="submit" value="שלח" >
+</div>
+
+</body>
+</html>

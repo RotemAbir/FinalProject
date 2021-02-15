@@ -1,0 +1,1 @@
+﻿INSERT INTO [dbo].[Neighbors] ([ID], [firstName], [lastName], [phone], [email], [apt_number], [floorNumber], [numOfRooms], [isOwner], [typeOfUser], [buildingIdentifier]) VALUES ('301757480','Gal','Shamir','0544558066','galshamir18@gmail.com',33,8,5,'N','neighbor',1)

@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="StyleSheet1.css" />
+</head>
+<body id="body">
+
+    <div align="right">
+        <table class="header">
+            <tr >
+                <th> <a href="HTMLPage2.html"> לאיזור האישי </a></th>
+                <th> <a href="HTMLPage1.html"> התחברות </a></th>
+            </tr>
+        </table>
+    </div>
+
+<div style="text-align:center">
+    <img id="logo" src="logo.jpg" />
+</div>
+
+ <div align="right">
+     <table class="tool-bar">
+         <tr >
+             <th> <a href="ServiceProviders.aspx"> בעלי מקצוע ואנשי שירות </a>  </th>
+          <th> <a href="HTMLPage6.html"> תקנון ונהלים </a>  </th>
+          <th> <a href="HTMLPage5.html"> הודעות </a>  </th>
+             <th> <a href="ReportingIssue.aspx"> דיווח על תקלה </a> </th>
+         </tr>
+     </table>
+ </div>
+
+    <br />
+
+    <div class="pool" align="left">
+            <img src="pool.jpg" style="stroke-width:80%; height:300px" id="pool-gym-pic" />
+            <p2 style="text-align:left" class="pool-text2">שעות פתיחת הבריכה</p2>
+            <p style="text-align:right" class="pool-text">
+                א-ה החל מ6:00 ועד 22:00<br />
+                שישי, שבת וחגים מ7:00 עד 24:00<br />
+                ערבי חג משעה 6:00 עד 15:00
+            </p>
+     </div>
+  
+    <div id="weather">
+       <div id="m-booked-weather-bl250-10517"> <div class="booked-wzs-250-175 weather-customize" style="background-color:#137AE9;width:430px;" id="width3"> <div class="booked-wzs-250-175_in"> <div class="booked-wzs-250-175-data"> <div class="booked-wzs-250-175-left-img wrz-06"> <a target="_blank" href="http://www.booked.net/"> <img src="//s.bookcdn.com/images/letter/logo.gif" alt="booked.net" /> </a> </div> <div class="booked-wzs-250-175-right"> <div class="booked-wzs-day-deck"> <div class="booked-wzs-day-val"> <div class="booked-wzs-day-number"><span class="plus">+</span>28</div> <div class="booked-wzs-day-dergee"> <div class="booked-wzs-day-dergee-val">&deg;</div> <div class="booked-wzs-day-dergee-name">C</div> </div> </div> <div class="booked-wzs-day"> <div class="booked-wzs-day-d">H: <span class="plus">+</span>28&deg;</div> <div class="booked-wzs-day-n">L: <span class="plus">+</span>19&deg;</div> </div> </div> <div class="booked-wzs-250-175-info"> <div class="booked-wzs-250-175-city">ירושלים </div> <div class="booked-wzs-250-175-date">ראשון, 20 מאי</div> <div class="booked-wzs-left"> <span class="booked-wzs-bottom-l">ראה תחזית ל- 7 ימים</span> </div> </div> </div> </div> <a target="_blank" href="http://www.booked.net/weather/jerusalem-18396"> <table cellpadding="0" cellspacing="0" class="booked-wzs-table-250"> <tr> <td>ב'</td> <td>ג'</td> <td>ד'</td> <td>ה'</td> <td>ו'</td> <td>שבת</td> </tr> <tr> <td class="week-day-ico"><div class="wrz-sml wrzs-06"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-03"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-01"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-01"></div></td> </tr> <tr> <td class="week-day-val"><span class="plus">+</span>33&deg;</td> <td class="week-day-val"><span class="plus">+</span>33&deg;</td> <td class="week-day-val"><span class="plus">+</span>32&deg;</td> <td class="week-day-val"><span class="plus">+</span>31&deg;</td> <td class="week-day-val"><span class="plus">+</span>32&deg;</td> <td class="week-day-val"><span class="plus">+</span>30&deg;</td> </tr> <tr> <td class="week-day-val"><span class="plus">+</span>18&deg;</td> <td class="week-day-val"><span class="plus">+</span>19&deg;</td> <td class="week-day-val"><span class="plus">+</span>19&deg;</td> <td class="week-day-val"><span class="plus">+</span>17&deg;</td> <td class="week-day-val"><span class="plus">+</span>18&deg;</td> <td class="week-day-val"><span class="plus">+</span>15&deg;</td> </tr> </table> </a> </div></div> </div>
+        <script type="text/javascript"> var css_file=document.createElement("link"); css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href",'https://s.bookcdn.com/css/w/booked-wzs-widget-275.css?v=0.0.1'); document.getElementsByTagName("head")[0].appendChild(css_file); function setWidgetData(data) { if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = document.getElementById('m-booked-weather-bl250-10517'); if(objMainBlock !== null) { var copyBlock = document.getElementById('m-bookew-weather-copy-'+data.results[i].widget_type); objMainBlock.innerHTML = data.results[i].html_code; if(copyBlock !== null) objMainBlock.appendChild(copyBlock); } } } else { alert('data=undefined||data.results is empty'); } } </script>
+        <script type="text/javascript" charset="UTF-8" src="https://widgets.booked.net/weather/info?action=get_weather_info&ver=6&cityID=18396&type=3&scode=124&ltid=3457&domid=w209&anc_id=47711&cmetric=1&wlangID=25&color=137AE9&wwidth=430&header_color=ffffff&text_color=333333&link_color=08488D&border_form=1&footer_color=ffffff&footer_text_color=333333&transparent=0"></script>
+     </div>
+
+   <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="gym" align="left">
+        <img src="gym.jpg" style="stroke-width:80%; height:282px" id="pool-gym-pic"/>
+        <p2 style="text-align:left" class="gym-text2">שעות פתיחת חדר הכושר</p2>
+        <p style="text-align:right" class="gym-text">
+            א-ה החל מ6:00 ועד 22:00<br />
+            שישי, שבת וחגים מ7:00 עד 24:00<br />
+            ערבי חג משעה 6:00 עד 15:00
+        </p>
+    </div>
+
+</body>
+</html>
