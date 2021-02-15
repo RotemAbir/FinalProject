@@ -1,2 +1,2 @@
 # FinalProject
-This is my final project in my managemtn information system degree studies.
+This is my final project in my management information system degree studies.
